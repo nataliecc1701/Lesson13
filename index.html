@@ -1,0 +1,32 @@
+<!doctype html>
+<head>
+  <title>Connect 4</title>
+  <link href="connect4.css" rel="stylesheet">
+</head>
+<body>
+
+<form id="setup">
+  <input type="submit" id="startBtn" value="New Game">
+  <label for="player1">Player 1 Color</label>
+  <select name="player1" id="p1Color">
+    <option value="red">Red</option>
+    <option value="gold">Gold</option>
+    <option value="green">Green</option>
+    <option value="teal">Teal</option>
+  </select>
+  <label for="player2">Player 2 Color</label>
+  <select name="player2" id="p2Color">
+    <option value="blue">Blue</option>
+    <option value="lawnGreen">Lawn Green</option>
+    <option value="yellow">Yellow</option>
+    <option value="crimson">Crimson</option>
+  </select>
+</form>
+<div id="game">
+  <table id="board"></table>
+</div>
+
+<script src="connect4.js"></script>
+
+</body>
+</html>
